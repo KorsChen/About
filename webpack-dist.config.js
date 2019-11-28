@@ -96,14 +96,14 @@ module.exports = {
     }),
     new EndWebpackPlugin(async () => {
       // 自定义域名
-      // fs.writeFileSync(path.resolve(outputPath, 'CNAME'), 'about.chenzhipeng.cn');
+      fs.writeFileSync(path.resolve(outputPath, 'CNAME'), 'www.chenxiyao.com');
 
       await publishGhPages();
 
       // 调用 Chrome 渲染出 PDF 文件
       // const chromePath = findChrome();
-      // spawnSync(chromePath, ['--headless', '--disable-gpu', `--print-to-pdf=${path.resolve(outputPath, 'resume.pdf')}`,
-      //   'http://resume.chenzhipeng.vip' // 这里注意改成你的在线简历的网站
+      // spawnSync(chromePath, ['--headless', '--disable-gpu', `--print-to-pdf=${path.resolve(outputPath, 'chenzhipeng.pdf')}`,
+      //   'http://www.chenxiyao.com/chenzhipeng.pdf' // 这里注意改成你的在线简历的网站
       // ]);
 
       // 重新发布到 ghpages
