@@ -96,7 +96,7 @@ module.exports = {
     }),
     new EndWebpackPlugin(async () => {
       // 自定义域名
-      fs.writeFileSync(path.resolve(outputPath, 'CNAME'), 'www.chenzhipeng.vip');
+      fs.writeFileSync(path.resolve(outputPath, 'CNAME'), 'www.korschen.com');
 
       await publishGhPages();
 
