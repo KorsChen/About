@@ -373,3 +373,27 @@ a {
     display: none;
   }
 }
+
+.app {
+  position: relative;
+  display: flex;
+  .icon {
+    width: 20%;
+    height: 20%;
+    border-radius: 20%;
+  }
+  .app-hd {
+    padding: 5%;
+    .app-name {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
+}
+.sort {
+  position: relative;
+  display: flex;
+  padding: 3%;
+  width: 70%;
+  height: 70%;
+}
