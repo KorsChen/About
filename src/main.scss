@@ -377,6 +377,8 @@ a {
 .app {
   position: relative;
   display: flex;
+  top: 10px;
+  left: 20%;
   .icon {
     width: 20%;
     height: 20%;
@@ -392,8 +394,9 @@ a {
 }
 .sort {
   position: relative;
+  left: 13%;
   display: flex;
-  padding: 3%;
+  padding: 5%;
   width: 70%;
   height: 70%;
 }
